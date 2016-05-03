@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MonsterGenerator.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -83,6 +84,14 @@
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Sleep.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs" />
+     <Compile Include="Assets\iTweenEditor\iTween.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenEvent.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
+     <Compile Include="Assets\pp.cs" />
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -111,6 +120,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\iTweenEditor\README.txt" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
